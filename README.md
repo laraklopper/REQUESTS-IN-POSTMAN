@@ -1,6 +1,6 @@
 # REQUESTS-IN-POSTMAN
 
-Start the server in the terminal (npm start), navigate to localhost:8080/api
+Install the necessary dependencies and then run the start the server in the terminal (npm start), navigate to localhost:8080/api
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ Start the server in the terminal (npm start), navigate to localhost:8080/api
 2. [DELETE REQUEST](#delete-request)
 3. [POST REQUEST](#post-request)
 4. [PUT REQUEST](#put-request)
+5. [DEPENDENCIES](#dependencies)
 
 ## GET REQUEST
 Syntax
@@ -15,7 +16,8 @@ Syntax
 **app.get(path, callback [, callback ...])**
 
 The app.get() request retrieves data to the specified path with specified callback function. A get request only retrieves the data and has no other effect.
-To test the application in postman using a GET request, choose the request type and enter the localhost URL in the tab and click send.
+To test the application in postman using a GET request: choose the request type and enter the localhost URL in the tab and click send.
+Choose to display the response in JSON format. The response should thereafter provide the response in JSON format.
 
 ## DELETE REQUEST
 Syntax
@@ -37,3 +39,8 @@ Syntax
 
 
 The put method is used to update/modify a specific piece of data about a specific object on an item on the list.
+
+## DEPENDENCIES
+
+- express (npm i express)
+- nodemon (npm i nodemon)
