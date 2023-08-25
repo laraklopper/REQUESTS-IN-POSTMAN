@@ -46,11 +46,11 @@ The POST method is used to add information within the request body to the server
 
 In postman a POST request allows the adding of data to the endpoint. 
 **To test the application in Postman using a POST request:**
-- choose the POST request type;
-- enter the localhost URL in the post tab;
-- click on the body tab below the address bar;
-- select option raw and choose JSON from the text dropdown menu;
-- enter the object/data to be added to the server using the following key/value pairs: {projectId: number, title: "string", description: "string"};
+- Choose the POST request type;
+- Enter the localhost URL in the post tab;
+- Click on the body tab below the address bar;
+- Select option raw and choose JSON from the text dropdown menu;
+- Enter the object/data to be added to the server using the following key/value pairs: {projectId: number, title: "string", description: "string"};
 - Click send;
 - In the response bar under the body tab choose to display the response in JSON format.
 
@@ -80,6 +80,7 @@ The put method is used to update/modify a specific piece of data about a specifi
 - Enter the following key/value pairs: {projectId: number, newDescription: "string" }
 - Click send
 - In the response bar under the body tab choose to display the response in JSON format.
+
 A success message should be displayed in the response bar and the description should be updated in the projects.json file.
 
 ## DEPENDENCIES
@@ -87,9 +88,10 @@ A success message should be displayed in the response bar and the description sh
 - express (npm i express)
 - nodemon (npm i nodemon)
 - bodyParser (npm i body-parser)
+  
 ## REFERENCES
 
-https://www.tutorialspoint.com/how-to-create-a-delete-request-in-postman
-https://www.tutorialspoint.com/how-to-create-a-put-request-in-postman
-https://www.tutorialspoint.com/how-to-create-a-post-request-in-postman
+- https://www.tutorialspoint.com/how-to-create-a-delete-request-in-postman
+- https://www.tutorialspoint.com/how-to-create-a-put-request-in-postman
+- https://www.tutorialspoint.com/how-to-create-a-post-request-in-postman
 
