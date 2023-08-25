@@ -9,6 +9,7 @@ Install the necessary dependencies and then run the start the server in the term
 3. [POST REQUEST](#post-request)
 4. [PUT REQUEST](#put-request)
 5. [DEPENDENCIES](#dependencies)
+6. [REFERENCES](#references)
 
 ## GET REQUEST
 Syntax
@@ -45,3 +46,7 @@ The put method is used to update/modify a specific piece of data about a specifi
 
 - express (npm i express)
 - nodemon (npm i nodemon)
+## REFERENCES
+
+https://www.tutorialspoint.com/how-to-create-a-delete-request-in-postman
+
