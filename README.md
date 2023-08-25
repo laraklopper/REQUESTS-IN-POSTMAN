@@ -24,13 +24,14 @@ Syntax
 
 **app.delete(path, callback [, callback ...])**
 
-To delete an object/item by the projectId using the delete method/request in postman choose the request type and enter the localhost URL in the tab and add projectId as the key parameter and the corresponding value as the   
+To delete an object/item by the projectId using the delete method/request in postman choose the request type and enter the localhost URL in the tab and add projectId as the key parameter and the corresponding value.   
 ## POST REQUEST
 Syntax
 
 **app.post(path, callback [, callback ...])**
 
-The Post method adds an item/object to the list on the server.
+The POST method is used to add information within the request body to the server.
+In postman a POST request allows the adding of data to the endpoint. 
 
 ## PUT REQUEST
 Syntax
